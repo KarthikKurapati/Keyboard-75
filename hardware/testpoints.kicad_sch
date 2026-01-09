@@ -768,6 +768,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9101e2-7497-4a78-b72b-769353b5dfc9")
+	)
+	(wire
+		(pts
 			(xy 149.86 41.91) (xy 161.29 41.91)
 		)
 		(stroke
@@ -845,6 +855,16 @@
 			(type default)
 		)
 		(uuid "9970e909-ab64-4b59-bf98-dc8264728b09")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c426464-ac92-4dfc-9d44-acf34abcbd5e")
 	)
 	(wire
 		(pts
@@ -1561,6 +1581,17 @@
 		)
 		(uuid "13df0f69-bee8-4552-96e7-b0616d4097ef")
 	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 151.13 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15302622-737e-4f6f-8722-c18e04f427d7")
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 153.67 46.99 0)
@@ -1583,12 +1614,23 @@
 		)
 		(uuid "ebfaa347-b37c-4927-981a-3b29cde48272")
 	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 151.13 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f432606b-b36b-4004-83c8-e9c1b43e7426")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 45.72 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01d64a6c-df6e-4e4e-8faf-e0e7dfec5771")
@@ -1637,6 +1679,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80a64f3c-11f5-4cdd-a4aa-e94284ac3b65")
 		)
@@ -1654,7 +1705,7 @@
 		(at 110.49 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "06090681-9aac-4285-a08a-0b1fb798c29b")
@@ -1703,6 +1754,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 110.49 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3caf409d-b813-451b-a96c-a5df7ddd553a")
 		)
@@ -1720,7 +1780,7 @@
 		(at 45.72 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0cb149-ba31-4698-a174-6b06a1963eec")
@@ -1769,6 +1829,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b5d7a7d-2ef6-4262-b86a-02d8820fb3b6")
 		)
@@ -1786,7 +1855,7 @@
 		(at 45.72 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ce2dba2-c81a-45ce-bfed-497c84988743")
@@ -1835,6 +1904,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f2979c7-c5a6-4dce-9810-4ee69bde3c83")
 		)
@@ -1852,7 +1930,7 @@
 		(at 45.72 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e8d8c1f-ec89-4238-bce5-81fe55676ae0")
@@ -1901,6 +1979,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47ea617d-ca17-47f0-a1c4-62c00d06e11b")
 		)
@@ -1918,7 +2005,7 @@
 		(at 107.95 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1968,6 +2055,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 107.95 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aeb792d8-1e1c-4d9f-9987-1224f1de6935")
 		)
@@ -1985,7 +2081,7 @@
 		(at 110.49 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "19041029-d189-4ed1-aa8f-08eb9e5a5b20")
@@ -2027,6 +2123,15 @@
 		)
 		(property "Description" "test point"
 			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 110.49 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2221,7 @@
 		(at 110.49 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b3fda14-19a4-48ac-bcc7-a9a67197b352")
@@ -2165,6 +2270,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 110.49 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7d05a28-1e76-4072-9deb-5d462ba7038d")
 		)
@@ -2182,7 +2296,7 @@
 		(at 45.72 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "28ac4757-c0e5-4216-ae2a-4635d7e17fe3")
@@ -2231,6 +2345,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3189274-51ed-4e21-bf9f-ae2cb1ab09da")
 		)
@@ -2248,7 +2371,7 @@
 		(at 110.49 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2bf91a31-3e73-47eb-86ed-d4679fa24f4e")
@@ -2297,6 +2420,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 110.49 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0997ad4a-4fc2-4787-9843-85c97d5288db")
 		)
@@ -2314,7 +2446,7 @@
 		(at 45.72 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3003636f-15ed-42c2-bb7f-90c2f470b22a")
@@ -2363,6 +2495,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa904f75-a4df-4516-b47b-524e7f9ee55d")
 		)
@@ -2380,7 +2521,7 @@
 		(at 107.95 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2430,6 +2571,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 107.95 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1588e265-b237-4455-ac63-55cb43c55650")
 		)
@@ -2447,7 +2597,7 @@
 		(at 45.72 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "39ace816-0a8a-4b19-83ad-bc157fe1b0b6")
@@ -2496,6 +2646,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eee6dbdd-0790-4963-895e-015188531ff2")
 		)
@@ -2513,7 +2672,7 @@
 		(at 45.72 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "402814d1-bd1f-4c78-b3e4-078ac3d2f01b")
@@ -2562,6 +2721,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d222652-35d1-407a-8e04-a3a85b3508e4")
 		)
@@ -2579,7 +2747,7 @@
 		(at 109.22 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2629,6 +2797,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 109.22 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a105ec0-59a6-4896-9947-2dc8f2eb31b0")
 		)
@@ -2646,7 +2823,7 @@
 		(at 45.72 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5fbf84f8-ce05-45e2-8360-e3e45e4cebf6")
@@ -2695,6 +2872,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "896c13f0-309e-4197-8b58-500573c7654d")
 		)
@@ -2712,7 +2898,7 @@
 		(at 45.72 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "75ac32b1-5689-471f-848f-12c06da9a45a")
@@ -2761,6 +2947,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e96256e2-7994-4a4e-b1b1-6d5bbc6a7c15")
 		)
@@ -2778,7 +2973,7 @@
 		(at 144.78 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2818,6 +3013,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -2914,10 +3118,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 110.49 53.34 270)
+		(at 160.02 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a19bc168-70cf-4d85-a849-fe5e620a9b86")
+		(property "Reference" "TP23"
+			(at 165.1 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b21b94b1-ee47-453e-9f95-dc4228354b6b")
+		)
+		(instances
+			(project ""
+				(path "/797c1b46-1f3b-46d3-a037-8c380d4b2a52/e8350447-ab55-4b73-b8ee-9a1ac3a8e033"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a4caa4df-100a-40bc-b534-18b7c5ca4b59")
@@ -2959,6 +3230,15 @@
 		)
 		(property "Description" "test point"
 			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 110.49 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3329,7 @@
 		(at 109.22 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3099,6 +3379,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 109.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fcb1c87-cb05-4f58-9a95-729b96d9751e")
 		)
@@ -3116,7 +3405,7 @@
 		(at 45.72 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e2454f-b7f4-4735-8b6e-7f017545723a")
@@ -3165,6 +3454,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ec759b5-fe88-4fcd-bcb5-2c0f7da3e33a")
 		)
@@ -3182,7 +3480,7 @@
 		(at 109.22 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3232,6 +3530,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 109.22 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "854ff69d-a6a7-4a29-b7f8-b180e31c9f2e")
 		)
@@ -3249,7 +3556,7 @@
 		(at 45.72 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bbab19a8-6eb8-4480-96d6-fa802877726e")
@@ -3298,6 +3605,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b833377-fd5e-45ac-942f-9bc56bb0fb65")
 		)
@@ -3312,10 +3628,77 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 45.72 80.01 270)
+		(at 160.02 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1eeca35-d49d-4555-a1f0-0f7fd3bcb514")
+		(property "Reference" "TP24"
+			(at 165.1 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a88cccf2-83e2-4737-b641-2f058f47508f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/797c1b46-1f3b-46d3-a037-8c380d4b2a52/e8350447-ab55-4b73-b8ee-9a1ac3a8e033"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "caee323e-957b-447a-b48f-7d36d183e3ee")
@@ -3357,6 +3740,15 @@
 		)
 		(property "Description" "test point"
 			(at 45.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 45.72 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3838,7 @@
 		(at 110.49 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db405099-efaf-4f04-8f39-7d3e6e2a11b8")
@@ -3488,6 +3880,15 @@
 		)
 		(property "Description" "test point"
 			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 110.49 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3978,7 @@
 		(at 45.72 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1080b86-f496-4ffb-934f-83d6fe9b51a9")
@@ -3626,6 +4027,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71ca679f-f851-46f9-b6b1-ba9e1c1aa3df")
 		)
@@ -3643,7 +4053,7 @@
 		(at 45.72 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f12365d2-4dd6-4a14-aa4e-652574faaad3")
@@ -3692,6 +4102,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d8586a3-0938-4d86-9014-4fe5040c8b6c")
 		)
@@ -3709,7 +4128,7 @@
 		(at 45.72 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1c0f4bc-71ec-40f3-9872-ad2e35fcd7f6")
@@ -3758,6 +4177,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 45.72 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fba01efd-062b-4781-98f0-48b25dc409e2")
 		)
@@ -3775,7 +4203,7 @@
 		(at 115.57 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3818,6 +4246,15 @@
 		)
 		(property "Description" "test point"
 			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 115.57 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
